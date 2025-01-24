@@ -7,14 +7,20 @@ Backend: Node.js
 API&Route:Express  
 DataBase:MongoDB
 
+```markdown
 ## Main Page
 
-[![MainPage](/seat-booking-app/photo/listpage.png)]
+[![MainPage](/photo/listpage.png)]
 
 ## Seat Book
 
-[![SeatBook](/seat-booking-app/photo/seatbook.png)]
+[![Main Page Screenshot](/photo/listpage.png)]
+
+## Seat Booking
+
+[![SeatBook](/photo/seatbook.png)]
 
 ## Seat Release
 
-[![SeatRelease](/seat-booking-app/photo/release.png)]
+[![SeatRelease](/photo/release.png)]
+```
