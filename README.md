@@ -7,7 +7,6 @@ Backend: Node.js
 API&Route:Express  
 DataBase:MongoDB
 
-```markdown
 ## Main Page
 
 [![MainPage](/photo/listpage.png)]
@@ -23,4 +22,3 @@ DataBase:MongoDB
 ## Seat Release
 
 [![SeatRelease](/photo/release.png)]
-```
