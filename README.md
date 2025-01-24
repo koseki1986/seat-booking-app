@@ -7,7 +7,7 @@ Backend: Node.js
 API&Route:Express  
 DataBase:MongoDB
 
-##Backend Install
+## Backend Install
 
 ```bash
 cd backend
@@ -15,7 +15,7 @@ npm install
 npx nodemon app.js
 ```
 
-##Frontend Install
+## Frontend Install
 
 ```bash
 cd frontend
