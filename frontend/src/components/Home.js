@@ -1,15 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"; // 添加 useEffect 和 useState
 import { Link } from "react-router-dom";
 import axios from "axios";
 
+//Home 组件
 const Home = () => {
+  // 定义座位状态
   const [seats, setSeats] = useState([]);
 
+  // 获取座位数据
   useEffect(() => {
+    // 发送 GET 请求获取座位数据
     axios
       .get("http://localhost:5000/api/seats")
       .then((response) => {
         console.log("Seats data:", response.data); // 打印数据
+        // 更新座位状态
         setSeats(response.data);
       })
       .catch((error) => {

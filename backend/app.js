@@ -15,8 +15,11 @@ mongoose
     console.error("MongoDB connection error:", error);
   });
 
+// Enable CORS for all routes
 app.use(cors());
+// Middleware to parse JSON bodies
 app.use(express.json());
+// Routes for seat booking
 app.use("/api", seatRoutes);
 
 app.listen(PORT, "0.0.0.0", () => {

@@ -113,4 +113,10 @@ router.post("/seats/:id/release", async (req, res) => {
   }
 });
 
+router.get("/fruit/:somefruit", (req, res) => {
+  const fruit = req.params.somefruit;
+  res.setHeader("Content-Type", "application/json");
+  res.json({ message: `You requested the fruit: ${fruit}` });
+});
+
 module.exports = router;
