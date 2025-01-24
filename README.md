@@ -11,10 +11,6 @@ DataBase:MongoDB
 
 [![MainPage](/photo/listpage.png)]
 
-## Seat Book
-
-[![Main Page Screenshot](/photo/listpage.png)]
-
 ## Seat Booking
 
 [![SeatBook](/photo/seatbook.png)]
