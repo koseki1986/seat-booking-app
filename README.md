@@ -7,6 +7,22 @@ Backend: Node.js
 API&Route:Express  
 DataBase:MongoDB
 
+##Backend Install
+
+```bash
+cd backend
+npm install
+npx nodemon app.js
+```
+
+##Frontend Install
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
 ## Main Page
 
 ![MainPage](/photo/listpage.png)
