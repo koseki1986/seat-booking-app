@@ -9,16 +9,16 @@ DataBase:MongoDB
 
 ## Main Page
 
-[!(/photo/listpage.png)]
+![MainPage](/photo/listpage.png)
 
 ## Seat Booking
 
-[!(/photo/seatbook.png)]
+![SeatBook](/photo/seatbook.png)
 
 ## Seat Release
 
-[!(/photo/release.png)]
+![SeatRelease](/photo/release.png)
 
 ## DB
 
-[!(/photo/db.png)]
+![DB](/photo/db.png)
